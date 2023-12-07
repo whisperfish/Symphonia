@@ -63,7 +63,7 @@ all = [
     "all-formats",
 ]
 
-whisperfork = []
+whisperfork = ["symphonia-core/whisperfork"]
 
 [dependencies]
 lazy_static = "1.4.0"
