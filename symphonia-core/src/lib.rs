@@ -11,7 +11,7 @@
 #![allow(clippy::excessive_precision)]
 #![allow(clippy::identity_op)]
 #![allow(clippy::manual_range_contains)]
-#![feature(int_bits_const)]
+#![cfg_attr(feature = "whisperfork", feature(int_bits_const))]
 
 pub mod audio;
 pub mod checksum;

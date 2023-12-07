@@ -63,6 +63,8 @@ all = [
     "all-formats",
 ]
 
+whisperfork = []
+
 [dependencies]
 lazy_static = "1.4.0"
 
